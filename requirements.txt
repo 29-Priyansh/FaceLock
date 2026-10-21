@@ -1,0 +1,6 @@
+# Full opencv-python (not -headless): the headless 4.13 wheel lacks the MSMF backend, which
+# FaceLock uses to verify that another app is really holding the camera.
+opencv-python==4.13.0.92
+numpy
+pystray==0.19.5
+Pillow

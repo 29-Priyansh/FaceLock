@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Build output (rebuild with build.ps1)
+build/
+dist/
+assets/facelock.ico
+
+# Benchmarks / probes
+tools/bench_*.csv
+
+# Unused model variant (camera_probe.py skips it when missing)
+models/face_recognition_sface_2021dec_int8.onnx
